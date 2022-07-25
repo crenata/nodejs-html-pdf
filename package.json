@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-html-pdf",
+  "version": "1.0.0",
+  "description": "Generate PDF with HTML Using NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Havea Crenata <havea.crenata@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "html-pdf": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
